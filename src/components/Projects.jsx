@@ -4,7 +4,10 @@ import coding from "../assets/coding.png";
 
 export const Projects = () => {
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center" id="projects">
+    <div
+      className="d-flex flex-column justify-content-center align-items-center"
+      id="projects"
+    >
       <h1>Projects</h1>
       <hr className="border-2 hr" />
       <div className="projects d-flex justify-content-between align-items-center">
@@ -18,14 +21,22 @@ export const Projects = () => {
                   className="img-fluid img-thumbnail card-img-top"
                 />
                 <div className="mt-5">
-                  <h1 className="fs-5">Something</h1>
+                  <h1 className="fs-5">REST Countries</h1>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Impedit numquam, ab aut fugit laudantium eaque labore!
+                    Uses the REST Countries API to allow users to search for
+                    countries, view details about each country, and filter
+                    countries by continent.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <button className="btn hero-btn">Demo</button>
-                    <button className="btn hero-btn">Code</button>
+                    <a href="#" className="btn hero-btn">
+                      Demo
+                    </a>
+                    <a
+                      href="https://github.com/RamandeepVandal/rest-api-countries"
+                      className="btn hero-btn"
+                    >
+                      Code
+                    </a>
                   </div>
                 </div>
               </div>
@@ -38,14 +49,22 @@ export const Projects = () => {
                   className="img-fluid img-thumbnail card-img-top"
                 />
                 <div className="mt-5">
-                  <h1 className="fs-5">Something</h1>
+                  <h1 className="fs-5">DramaList</h1>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Impedit numquam, ab aut fugit laudantium eaque labore!
+                    Allows users to manage and keep track of the dramas they
+                    have watched. The project is built using React, Bootstrap,
+                    Node.js, MongoDB.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <button className="btn hero-btn">Demo</button>
-                    <button className="btn hero-btn">Code</button>
+                    <a href="#" className="btn hero-btn">
+                      Demo
+                    </a>
+                    <a
+                      href="https://github.com/RamandeepVandal/mern-dramalist-app"
+                      className="btn hero-btn"
+                    >
+                      Code
+                    </a>
                   </div>
                 </div>
               </div>
@@ -58,14 +77,21 @@ export const Projects = () => {
                   className="img-fluid img-thumbnail card-img-top"
                 />
                 <div className="mt-5">
-                  <h1 className="fs-5">Something</h1>
+                  <h1 className="fs-5">Otter Landing Page Clone</h1>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Impedit numquam, ab aut fugit laudantium eaque labore!
+                    This front-end web app uses React and Bootstrap to create a
+                    clone of the Otter landing page. It is fully responsive!
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <button className="btn hero-btn">Demo</button>
-                    <button className="btn hero-btn">Code</button>
+                    <a href="#" className="btn hero-btn">
+                      Demo
+                    </a>
+                    <a
+                      href="https://github.com/RamandeepVandal/landing-page-otter-clone"
+                      className="btn hero-btn"
+                    >
+                      Code
+                    </a>
                   </div>
                 </div>
               </div>
@@ -78,14 +104,21 @@ export const Projects = () => {
                   className="img-fluid img-thumbnail card-img-top"
                 />
                 <div className="mt-5">
-                  <h1 className="fs-5">Something</h1>
+                  <h1 className="fs-5">JapanEats Restaurant</h1>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Impedit numquam, ab aut fugit laudantium eaque labore!
+                    Fully responsive React, Bootstrap app that allows users to
+                    view the menu and place orders with a working cart system.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <button className="btn hero-btn">Demo</button>
-                    <button className="btn hero-btn">Code</button>
+                    <a href="#" className="btn hero-btn">
+                      Demo
+                    </a>
+                    <a
+                      href="#"
+                      className="btn hero-btn"
+                    >
+                      Code
+                    </a>
                   </div>
                 </div>
               </div>
