@@ -34,9 +34,6 @@ export const Projects = () => {
                     countries by continent.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <a href="#" className="btn hero-btn">
-                      Demo
-                    </a>
                     <a
                       href="https://github.com/RamandeepVandal/rest-api-countries"
                       className="btn hero-btn"
@@ -65,9 +62,6 @@ export const Projects = () => {
                     Node.js, MongoDB.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <a href="#" className="btn hero-btn">
-                      Demo
-                    </a>
                     <a
                       href="https://github.com/RamandeepVandal/mern-dramalist-app"
                       className="btn hero-btn"
@@ -93,9 +87,6 @@ export const Projects = () => {
                     clone of the Otter landing page. It is fully responsive!
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <a href="#" className="btn hero-btn">
-                      Demo
-                    </a>
                     <a
                       href="https://github.com/RamandeepVandal/landing-page-otter-clone"
                       className="btn hero-btn"
@@ -121,9 +112,6 @@ export const Projects = () => {
                     view the menu and place orders with a working cart system.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <a href="#" className="btn hero-btn">
-                      Demo
-                    </a>
                     <a href="#" className="btn hero-btn">
                       Code
                     </a>
