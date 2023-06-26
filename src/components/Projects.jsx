@@ -1,6 +1,9 @@
 import React from "react";
 // project images
 import coding from "../assets/coding.png";
+import dramaList from "../assets/drama-lsit.mp4";
+import otterClone from "../assets/Otter-clone.mp4";
+import restCountries from "../assets/rest-countries_compressed.mp4";
 
 export const Projects = () => {
   return (
@@ -15,11 +18,14 @@ export const Projects = () => {
           <div className="row">
             <div className="col-12 col-md-12 col-lg-6">
               <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
-                <img
-                  src={coding}
-                  alt="project-img"
-                  className="img-fluid img-thumbnail card-img-top"
-                />
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video
+                    className="img-fluid"
+                    src={restCountries}
+                    controls
+                    muted
+                  ></video>
+                </div>
                 <div className="mt-5">
                   <h1 className="fs-5">REST Countries</h1>
                   <p>
@@ -43,11 +49,14 @@ export const Projects = () => {
             </div>
             <div className="col-12 col-md-12 col-lg-6">
               <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
-                <img
-                  src={coding}
-                  alt="project-img"
-                  className="img-fluid img-thumbnail card-img-top"
-                />
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video
+                    className="img-fluid"
+                    src={dramaList}
+                    controls
+                    muted
+                  ></video>
+                </div>
                 <div className="mt-5">
                   <h1 className="fs-5">DramaList</h1>
                   <p>
@@ -71,11 +80,12 @@ export const Projects = () => {
             </div>
             <div className="col-12 col-md-12 col-lg-6">
               <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
-                <img
-                  src={coding}
-                  alt="project-img"
-                  className="img-fluid img-thumbnail card-img-top"
-                />
+                <video
+                  className="img-fluid"
+                  src={otterClone}
+                  controls
+                  muted
+                ></video>
                 <div className="mt-5">
                   <h1 className="fs-5">Otter Landing Page Clone</h1>
                   <p>
@@ -98,11 +108,12 @@ export const Projects = () => {
             </div>
             <div className="col-12 col-md-12 col-lg-6">
               <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
-                <img
-                  src={coding}
-                  alt="project-img"
-                  className="img-fluid img-thumbnail card-img-top"
-                />
+                <video
+                  className="img-fluid"
+                  src={otterClone}
+                  controls
+                  muted
+                ></video>
                 <div className="mt-5">
                   <h1 className="fs-5">JapanEats Restaurant</h1>
                   <p>
@@ -113,10 +124,7 @@ export const Projects = () => {
                     <a href="#" className="btn hero-btn">
                       Demo
                     </a>
-                    <a
-                      href="#"
-                      className="btn hero-btn"
-                    >
+                    <a href="#" className="btn hero-btn">
                       Code
                     </a>
                   </div>

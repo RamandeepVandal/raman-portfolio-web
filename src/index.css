@@ -20,7 +20,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* HERO SECTION -> Hero.jsx */ 
+/* HERO SECTION -> Hero.jsx */
 .hero-section {
   height: 100vh;
   min-width: 100%;
@@ -75,7 +75,7 @@ hr {
 /* SKILLS SECTION */
 .skills-section {
   min-height: 50vh;
-} 
+}
 
 .skill-card-img {
   width: 5rem;
