@@ -7,7 +7,7 @@ import { HomePage } from "./screens/HomePage"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/raman-portfolio-web">
       <Routes>
         <Route exact path="/" element={<HomePage />} />
       </Routes>
