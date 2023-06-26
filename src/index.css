@@ -16,6 +16,10 @@ body {
   background-color: var(--black);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* HERO SECTION -> Hero.jsx */ 
 .hero-section {
   height: 100vh;
