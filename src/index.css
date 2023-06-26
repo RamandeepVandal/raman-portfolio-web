@@ -1,0 +1,88 @@
+/*
+  Bootstrap icons
+*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --black: #16161a;
+  --white: #fffffe;
+  --gray: #94a1b2;
+  --purple: #7f5af0;
+  --lightPurple: #8d6bf2;
+}
+
+body {
+  background-color: var(--black);
+}
+
+/* HERO SECTION -> Hero.jsx */ 
+.hero-section {
+  height: 100vh;
+  min-width: 100%;
+  background: url('./assets/hero-section-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section h1 {
+  color: var(--white);
+}
+
+section p {
+  color: var(--gray);
+}
+
+.card {
+  background-color: var(--black);
+  border-color: var(--purple);
+}
+
+.hero-btn {
+  border: 3px solid var(--purple);
+  color: var(--white);
+  font-weight: bold;
+  transition: all ease 0.8s;
+}
+
+.hero-btn:hover {
+  border: 3px solid var(--purple);
+  color: var(--white);
+  background-color: var(--purple);
+}
+
+.hero-btn:hover svg {
+  fill: var(--white);
+}
+
+.hero-span {
+  color: var(--purple);
+}
+
+/* ABOUT SECTION */
+.about-project-section {
+  min-height: 100vh;
+}
+
+hr {
+  background-color: var(--purple);
+}
+
+/* SKILLS SECTION */
+.skills-section {
+  min-height: 50vh;
+} 
+
+.skill-card-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+/* FOOTER SECTION */
+.footer {
+  min-height: 20vh;
+}
+
+.footer-a {
+  color: var(--purple);
+}
