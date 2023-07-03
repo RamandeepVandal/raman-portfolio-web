@@ -106,10 +106,10 @@ export const Projects = () => {
                   muted
                 ></video>
                 <div className="mt-5">
-                  <h1 className="fs-5">JapanEats Restaurant</h1>
+                  <h1 className="fs-5">ShoeFlex Store</h1>
                   <p>
                     Fully responsive React, Bootstrap app that allows users to
-                    view the menu and place orders with a working cart system.
+                    view the products and place orders with a working cart system.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a href="#" className="btn hero-btn">
