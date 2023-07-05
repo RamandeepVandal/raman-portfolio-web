@@ -5,6 +5,7 @@ export const Skills = () => {
     <section className="skills-section mt-5">
       <div className="d-flex flex-column justify-content-center align-items-center">
         <h1>Skills</h1>
+        <hr />
         <div className="d-flex flex-wrap justify-content-center align-items-center">
           <div className="card m-3 p-4 text-center">
             <img

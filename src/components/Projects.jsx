@@ -12,6 +12,7 @@ export const Projects = () => {
       id="projects"
     >
       <h1>Projects</h1>
+      <hr />
       <div className="projects d-flex justify-content-between align-items-center">
         <div className="container">
           <div className="row">
