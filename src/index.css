@@ -25,10 +25,11 @@ html {
   height: 100vh;
   min-width: 100%;
   background-image:
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('./assets/stacked-steps-haikei.png');
+  linear-gradient(to bottom, rgba(22, 22, 26, 0.75), rgba(22, 22, 26, 0.75)), url('./assets/oldTrafford.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 section h1 {
