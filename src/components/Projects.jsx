@@ -1,9 +1,9 @@
 import React from "react";
 // project images
-import coding from "../assets/coding.png";
 import dramaList from "../assets/drama-lsit.mp4";
 import otterClone from "../assets/Otter-Clone (1) (1).mp4";
 import restCountries from "../assets/rest-countries_compressed.mp4";
+import shoeFlex from '../assets/ShoeFlex (1).mp4';
 
 export const Projects = () => {
   return (
@@ -100,14 +100,14 @@ export const Projects = () => {
               <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
                 <video
                   className="img-fluid"
-                  src={otterClone}
+                  src={shoeFlex}
                   controls
                   muted
                 ></video>
                 <div className="mt-5">
                   <h1 className="fs-5">ShoeFlex Store</h1>
                   <p>
-                    Fully responsive React, Bootstrap app that allows users to
+                    Fully responsive MERN app that allows users to
                     view the products and place orders with a working cart system.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
