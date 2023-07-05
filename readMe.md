@@ -1,6 +1,6 @@
 # Hi, I'm Raman, welcome to my portfolio
 
-This is a portfolio website I made with React and Bootstrap. Live site coming soon :)
+This is a portfolio website I made with React and Bootstrap. Live site: https://ramandeepvandal.github.io/raman-portfolio-web/
 
 ## How to use
 
