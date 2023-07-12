@@ -8,7 +8,7 @@ export const Hero = () => {
           <h1 className="fs-1">
             Hi, I'm <span className="hero-span">Raman Vandal</span>.
           </h1>
-          <h1 className="fs-1">I'm a full stack web developer.</h1>
+          <h1 className="fs-1">I'm a Software Developer.</h1>
           <a href="#projects" className="btn hero-btn fs-5 mt-3 p-3">
             View my work{" "}
             <svg

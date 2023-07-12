@@ -1,23 +1,36 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 // project images
 import dramaList from "../assets/drama-lsit.mp4";
 import otterClone from "../assets/Otter-Clone (1) (1).mp4";
 import restCountries from "../assets/rest-countries_compressed.mp4";
-import shoeFlex from '../assets/ShoeFlex (1).mp4';
+import shoeFlex from "../assets/ShoeFlex (1).mp4";
 
 export const Projects = () => {
+  const { ref: myRef, inView: sectionIsVisible } = useInView();
+
   return (
     <div
-      className="d-flex flex-column justify-content-center align-items-center"
+      className={`d-flex flex-column justify-content-center align-items-center`}
       id="projects"
     >
-      <h1>Projects</h1>
+      <h1 ref={myRef} className={`hidden ${sectionIsVisible ? "show" : ""}`}>
+        Projects
+      </h1>
       <hr />
-      <div className="projects d-flex justify-content-between align-items-center">
+      <div
+        ref={myRef}
+        className={`projects d-flex justify-content-between align-items-center hidden ${
+          sectionIsVisible ? "show" : ""
+        }`}
+      >
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-12 col-lg-6">
-              <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
+              <div
+                ref={myRef}
+                className={`card d-flex m-5 p-5 justify-content-center align-items-center text-center proj-card`}
+              >
                 <div className="embed-responsive embed-responsive-16by9">
                   <video
                     className="img-fluid"
@@ -45,7 +58,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="col-12 col-md-12 col-lg-6">
-              <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
+              <div
+                ref={myRef}
+                className={`card d-flex m-5 p-5 justify-content-center align-items-center text-center proj-card`}
+              >
                 <div className="embed-responsive embed-responsive-16by9">
                   <video
                     className="img-fluid"
@@ -73,7 +89,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="col-12 col-md-12 col-lg-6">
-              <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
+              <div
+                ref={myRef}
+                className={`card d-flex m-5 p-5 justify-content-center align-items-center text-center proj-card`}
+              >
                 <video
                   className="img-fluid"
                   src={otterClone}
@@ -98,7 +117,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="col-12 col-md-12 col-lg-6">
-              <div className="card d-flex m-5 p-5 justify-content-center align-items-center text-center">
+              <div
+                ref={myRef}
+                className={`card d-flex m-5 p-5 justify-content-center align-items-center text-center proj-card`}
+              >
                 <video
                   className="img-fluid"
                   src={shoeFlex}
@@ -108,8 +130,8 @@ export const Projects = () => {
                 <div className="mt-5">
                   <h1 className="fs-5">ShoeFlex Store</h1>
                   <p>
-                    Fully responsive MERN app that allows users to
-                    view the products and place orders with a working cart system.
+                    Fully responsive MERN app that allows users to view the
+                    products and place orders with a working cart system.
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a href="#" className="btn hero-btn">
