@@ -5,10 +5,10 @@ export const Hero = () => {
     <>
       <section className="hero-section container d-flex justify-content-center align-items-center">
         <div className="text-center m-5 p-5">
-          <h1 className="fs-1">
+          <h1 className="fs-lg-1 fs-md-1 fs-sm-3 fs-2">
             Hi, I'm <span className="hero-span">Raman Vandal</span>.
           </h1>
-          <h1 className="fs-1">I'm a Software Developer.</h1>
+          <h1 className="fs-lg-1 fs-md-1 fs-sm-3 fs-3">I'm a Software Developer.</h1>
           <a href="#projects" className="btn hero-btn fs-5 mt-3 p-3">
             View my work{" "}
             <svg
