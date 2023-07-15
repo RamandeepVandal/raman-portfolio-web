@@ -1,7 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 // project images
-import dramaList from "../assets/drama-lsit.mp4";
+import dramaList from "../assets/DramaList.mp4";
 import otterClone from "../assets/Otter-Clone (1) (1).mp4";
 import restCountries from "../assets/rest-countries_compressed.mp4";
 import shoeFlex from "../assets/ShoeFlex (1).mp4";
