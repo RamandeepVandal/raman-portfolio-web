@@ -81,7 +81,7 @@ export const Projects = () => {
                     Node.js, MongoDB.
                   </p>
                   <p>
-                    <span style={{fontWeight: 'bold'}} className="hero-span">Tech Stack:</span> React, Bootstrap, MongoDB, ExpressJS
+                    <span style={{fontWeight: 'bold'}} className="hero-span">Tech Stack:</span> React, MongoDB, ExpressJS
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
