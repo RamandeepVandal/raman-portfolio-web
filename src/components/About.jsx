@@ -16,35 +16,35 @@ export const About = () => {
           About me
         </h1>
         <hr />
-
-        <div
-          className={`card m-5 p-5 text-left hidden ${
-            sectionIsVisible ? "show" : ""
-          }`}
-          ref={myRef}
-        >
-          <p className="fs-4">
-            👨‍💻 I'm a <span className="hero-span">Software Developer</span> with
-            a keen interest in all things web dev.
-          </p>
-          <p className="fs-4">
-            🎓 B.Tech. in Information Technology from{" "}
-            <span className="hero-span">Kwantlen Polytechnic University</span>.
-          </p>
-          <p className="fs-4">
-            🌱 I'm always looking to expand my skill set and learn new
-            technologies.
-          </p>
-          <p className="fs-4">
-            🚀 I'm proficient with <span className="hero-span">ReactJS</span>,{" "}
-            <span className="hero-span">NodeJS</span>,{" "}
-            <span className="hero-span">MongoDB</span>,{" "}
-            <span className="hero-span">Bootstrap</span>, and all the wonderful
-            technologies that encapsulate and support them to bring my ideas to
-            life.
-          </p>
+          <div
+            className={`card m-5 p-5 text-left hidden ${
+              sectionIsVisible ? "show" : ""
+            }`}
+            ref={myRef}
+          >
+            <p className="fs-4">
+              👨‍💻 I'm a <span className="hero-span">Software Developer</span>{" "}
+              with a keen interest in all things web dev.
+            </p>
+            <p className="fs-4">
+              🎓 B.Tech. in Information Technology from{" "}
+              <span className="hero-span">Kwantlen Polytechnic University</span>
+              .
+            </p>
+            <p className="fs-4">
+              🌱 I'm always looking to expand my skill set and learn new
+              technologies.
+            </p>
+            <p className="fs-4">
+              🚀 I'm proficient with <span className="hero-span">ReactJS</span>,{" "}
+              <span className="hero-span">NodeJS</span>,{" "}
+              <span className="hero-span">MongoDB</span>,{" "}
+              <span className="hero-span">Bootstrap</span>, and all the
+              wonderful technologies that encapsulate and support them to bring
+              my ideas to life.
+            </p>
+          </div>
         </div>
-      </div>
 
       {/* PROJECTS SECTION */}
       <Projects />
