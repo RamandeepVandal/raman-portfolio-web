@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 // project images
 import otterClone from "../assets/otter-final.gif";
 import restCountries from "../assets/rest-country-final.gif";
-import shoeFlex from "../assets/shoeflex-final.gif";
+import shoeFlex from "../assets/shoeFlex-final.gif";
 import dramaGif from "../assets/dramalist-final.gif";
 
 export const Projects = () => {
