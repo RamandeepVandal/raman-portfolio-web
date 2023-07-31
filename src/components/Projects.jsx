@@ -46,6 +46,9 @@ export const Projects = () => {
                     countries, view details about each country, and filter
                     countries by continent.
                   </p>
+                  <p>
+                    <span style={{fontWeight: 'bold'}} className="hero-span">Tech Stack:</span> React, Bootstrap, REST APIs
+                  </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
                       href="https://github.com/RamandeepVandal/rest-api-countries"
@@ -77,6 +80,9 @@ export const Projects = () => {
                     have watched. The project is built using React, Bootstrap,
                     Node.js, MongoDB.
                   </p>
+                  <p>
+                    <span style={{fontWeight: 'bold'}} className="hero-span">Tech Stack:</span> React, Bootstrap, MongoDB, ExpressJS
+                  </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
                       href="https://github.com/RamandeepVandal/mern-dramalist-app"
@@ -105,6 +111,9 @@ export const Projects = () => {
                     This front-end web app uses React and Bootstrap to create a
                     clone of the Otter landing page. It is fully responsive!
                   </p>
+                  <p>
+                    <span style={{fontWeight: 'bold'}} className="hero-span">Tech Stack:</span> React, Bootstrap
+                  </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
                       href="https://github.com/RamandeepVandal/landing-page-otter-clone"
@@ -132,6 +141,9 @@ export const Projects = () => {
                   <p>
                     Fully responsive MERN app that allows users to view the
                     products and place orders with a working cart system.
+                  </p>
+                  <p>
+                    <span style={{fontWeight: 'bold'}} className="hero-span">Tech Stack:</span> React, Bootstrap, MongoDB, Express
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a href="#" className="btn hero-btn">
