@@ -52,6 +52,7 @@ export const Projects = () => {
                     <a
                       href="https://github.com/RamandeepVandal/mern-socialx"
                       className="btn hero-btn"
+                      target="_blank"
                     >
                       Code
                     </a>
@@ -85,6 +86,7 @@ export const Projects = () => {
                     <a
                       href="https://github.com/RamandeepVandal/mern-dramalist-app"
                       className="btn hero-btn"
+                      target="_blank"
                     >
                       Code
                     </a>
@@ -115,7 +117,11 @@ export const Projects = () => {
                     React, Bootstrap, MongoDB, NodeJS
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <a href="#" className="btn hero-btn">
+                    <a
+                      href="https://github.com/RamandeepVandal/shoeflex-online-store"
+                      className="btn hero-btn"
+                      target="_blank"
+                    >
                       Code
                     </a>
                   </div>
@@ -148,6 +154,7 @@ export const Projects = () => {
                     <a
                       href="https://github.com/RamandeepVandal/landing-page-otter-clone"
                       className="btn hero-btn"
+                      target="_blank"
                     >
                       Code
                     </a>
