@@ -79,7 +79,7 @@ export const Projects = () => {
                     <span style={{ fontWeight: "bold" }} className="hero-span">
                       Tech Stack:
                     </span>{" "}
-                    React, MongoDB, ExpressJS, NodeJS
+                    MongoDB, ExpressJS, React, NodeJS
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
