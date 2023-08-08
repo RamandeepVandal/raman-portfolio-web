@@ -2,7 +2,7 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 // project images
 import otterClone from "../assets/otter-final.gif";
-import restCountries from "../assets/rest-country-final.gif";
+import socialX from "../assets/socialX.gif";
 import shoeFlex from "../assets/shoeFlex-final.gif";
 import dramaGif from "../assets/dramalist-final.gif";
 
@@ -29,6 +29,39 @@ export const Projects = () => {
             <div className="col-12 col-md-12 col-lg-6">
               <div
                 ref={myRef}
+                className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
+              >
+                <img
+                  src={socialX}
+                  alt="dramalist demo"
+                  className="img-fluid card-img-top"
+                />
+                <div className="p-5">
+                  <h1 className="fs-3">SocialX</h1>
+                  <p className="fs-5">
+                    MERN Craiglist clone with user authentication using JWT and
+                    allows users to sell their products online.
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: "bold" }} className="hero-span">
+                      Tech Stack:
+                    </span>{" "}
+                    MongoDB, ExpressJS, React, NodeJS
+                  </p>
+                  <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
+                    <a
+                      href="https://github.com/RamandeepVandal/mern-socialx"
+                      className="btn hero-btn"
+                    >
+                      Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-6">
+              <div
+                ref={myRef}
                 className={`card m-5 d-flex justify-content-center align-items-center text-center proj-card`}
               >
                 <img
@@ -39,8 +72,8 @@ export const Projects = () => {
                 <div className="p-5">
                   <h1 className="fs-3">DramaList</h1>
                   <p className="fs-5">
-                    Allows users to keep track of the dramas they
-                    have watched and search for new dramas using the TMDB API.
+                    Allows users to keep track of the dramas they have watched
+                    and search for new dramas using the TMDB API.
                   </p>
                   <p>
                     <span style={{ fontWeight: "bold" }} className="hero-span">
@@ -114,39 +147,6 @@ export const Projects = () => {
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
                       href="https://github.com/RamandeepVandal/landing-page-otter-clone"
-                      className="btn hero-btn"
-                    >
-                      Code
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-12 col-lg-6">
-              <div
-                ref={myRef}
-                className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
-              >
-                <img
-                  src={restCountries}
-                  alt="dramalist demo"
-                  className="img-fluid card-img-top"
-                />
-                <div className="p-5">
-                  <h1 className="fs-3">REST Countries</h1>
-                  <p className="fs-5">
-                    Uses the REST Countries API to allow users to search for
-                    countries, and view details about each country.
-                  </p>
-                  <p>
-                    <span style={{ fontWeight: "bold" }} className="hero-span">
-                      Tech Stack:
-                    </span>{" "}
-                    React, Bootstrap, REST APIs
-                  </p>
-                  <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
-                    <a
-                      href="https://github.com/RamandeepVandal/rest-api-countries"
                       className="btn hero-btn"
                     >
                       Code
