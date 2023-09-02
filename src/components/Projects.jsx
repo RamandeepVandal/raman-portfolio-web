@@ -35,6 +35,7 @@ export const Projects = () => {
                   src={socialX}
                   alt="dramalist demo"
                   className="img-fluid card-img-top"
+                  loading="lazy"
                 />
                 <div className="p-5">
                   <h1 className="fs-3">SocialX</h1>
@@ -69,6 +70,7 @@ export const Projects = () => {
                   src={dramaGif}
                   alt="dramalist demo"
                   className="img-fluid card-img-top"
+                  loading="lazy"
                 />
                 <div className="p-5">
                   <h1 className="fs-3">DramaList</h1>
@@ -103,6 +105,7 @@ export const Projects = () => {
                   src={shoeFlex}
                   alt="dramalist demo"
                   className="img-fluid card-img-top"
+                  loading="lazy"
                 />
                 <div className="p-5">
                   <h1 className="fs-3">ShoeFlex Store</h1>
@@ -137,6 +140,7 @@ export const Projects = () => {
                   src={otterClone}
                   alt="dramalist demo"
                   className="img-fluid card-img-top"
+                  loading="lazy"
                 />
                 <div className="p-5">
                   <h1 className="fs-3">Otter Landing Page Clone</h1>
