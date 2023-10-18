@@ -77,8 +77,7 @@ export const Projects = () => {
                 <div className="p-5">
                   <h3>DramaList</h3>
                   <p>
-                    Allows users to keep track of the dramas they have watched
-                    and search for new dramas using the TMDB API.
+                    Allows users to keep track of the dramas they have watched, search for new dramas using the TMDB API.
                   </p>
                   <p>
                     <span style={{ fontWeight: "bold" }} className="hero-span">
