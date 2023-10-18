@@ -7,16 +7,18 @@ import shoeFlex from "../assets/shoeFlex-final.gif";
 import dramaGif from "../assets/dramalist-final.gif";
 
 export const Projects = () => {
-  const { ref: myRef, inView: sectionIsVisible } = useInView();
+  const { ref: myRef, inView: sectionIsVisible } = useInView({
+    triggerOnce: true
+  });
 
   return (
     <div
       className={`d-flex flex-column justify-content-center align-items-center`}
       id="projects"
     >
-      <h1 ref={myRef} className={`hidden ${sectionIsVisible ? "show" : ""}`}>
+      <h2 ref={myRef} className={`hidden ${sectionIsVisible ? "show" : ""}`}>
         Projects
-      </h1>
+      </h2>
       <hr />
       <div
         ref={myRef}
@@ -27,7 +29,7 @@ export const Projects = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-12 col-lg-6">
-              <div
+              <section
                 ref={myRef}
                 className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
               >
@@ -38,8 +40,8 @@ export const Projects = () => {
                   loading="lazy"
                 />
                 <div className="p-5">
-                  <h1 className="fs-3">SocialX</h1>
-                  <p className="fs-5">
+                  <h3>SocialX</h3>
+                  <p>
                     MERN Craiglist clone with user authentication using JWT and
                     allows users to sell their products online.
                   </p>
@@ -59,10 +61,10 @@ export const Projects = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
             <div className="col-12 col-md-12 col-lg-6">
-              <div
+              <section
                 ref={myRef}
                 className={`card m-5 d-flex justify-content-center align-items-center text-center proj-card`}
               >
@@ -73,8 +75,8 @@ export const Projects = () => {
                   loading="lazy"
                 />
                 <div className="p-5">
-                  <h1 className="fs-3">DramaList</h1>
-                  <p className="fs-5">
+                  <h3>DramaList</h3>
+                  <p>
                     Allows users to keep track of the dramas they have watched
                     and search for new dramas using the TMDB API.
                   </p>
@@ -94,10 +96,10 @@ export const Projects = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
             <div className="col-12 col-md-12 col-lg-6">
-              <div
+              <section
                 ref={myRef}
                 className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
               >
@@ -108,8 +110,8 @@ export const Projects = () => {
                   loading="lazy"
                 />
                 <div className="p-5">
-                  <h1 className="fs-3">ShoeFlex Store</h1>
-                  <p className="fs-5">
+                  <h3>ShoeFlex Store</h3>
+                  <p>
                     Fully responsive MERN app that allows users to view the
                     products and place orders with a working cart system.
                   </p>
@@ -129,10 +131,10 @@ export const Projects = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
             <div className="col-12 col-md-12 col-lg-6">
-              <div
+              <section
                 ref={myRef}
                 className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
               >
@@ -143,8 +145,8 @@ export const Projects = () => {
                   loading="lazy"
                 />
                 <div className="p-5">
-                  <h1 className="fs-3">Otter Landing Page Clone</h1>
-                  <p className="fs-5">
+                  <h3>Otter Clone</h3>
+                  <p>
                     This front-end web app uses React and Bootstrap to create a
                     clone of the Otter landing page. It is fully responsive!
                   </p>
@@ -152,7 +154,7 @@ export const Projects = () => {
                     <span style={{ fontWeight: "bold" }} className="hero-span">
                       Tech Stack:
                     </span>{" "}
-                    React, Bootstrap
+                    React, Bootstrap, HTML5, CSS3
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
@@ -164,7 +166,7 @@ export const Projects = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>

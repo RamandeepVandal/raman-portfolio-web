@@ -10,7 +10,24 @@
   --gray: #94a1b2;
   --purple: #7f5af0;
   --lightPurple: #8d6bf2;
+
+  --fs-header: 2.5rem;
+  --fs-sub-header: 2rem;
+  --fs-p-header: 1.5rem;
+  --fs-p-sub: 1.1rem;
+  --fs-p: 1rem;
 }
+
+@media (min-width: 768px) {
+  :root {
+  --fs-header: 3rem;
+  --fs-sub-header: 2.5rem;
+  --fs-p-header: 2rem;
+  --fs-p-sub: 1.75rem;
+  --fs-p: 1.15rem;
+  }
+}
+
 
 body {
   background-color: var(--black);
@@ -24,20 +41,52 @@ html {
 .hero-section {
   height: 100vh;
   min-width: 100%;
+  /*
   background-image:
     linear-gradient(to bottom, rgba(22, 22, 26, 0.75), rgba(22, 22, 26, 0.75)), url('./assets/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  */
+}
+
+.video-bg {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+video {
+  filter: brightness(40%);
 }
 
 section h1 {
   color: var(--white);
+  font-size: var(--fs-header);
+}
+
+section h2 {
+  color: var(--white);
+  font-size: var(--fs-sub-header);
+}
+
+section h3 {
+  color: var(--white);
+  font-size: var(--fs-p-header);
 }
 
 section p {
   color: var(--gray);
+  font-size: var(--fs-p);
+}
+
+.p-sub {
+  font-size: var(--fs-p-sub);
 }
 
 section li {
@@ -86,7 +135,7 @@ section li {
 
 /* ABOUT SECTION */
 .about-project-section {
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 hr {
@@ -95,7 +144,7 @@ hr {
 
 /* SKILLS SECTION */
 .skills-section {
-  min-height: 50vh;
+  min-height: 30vh;
 }
 
 .skill-card-img {
@@ -115,6 +164,10 @@ hr {
 @media only screen and (max-width: 768px) {
   .footer p {
     font-size: 12px;
+  }
+
+  .about-card {
+    text-align: center;
   }
 }
 
@@ -145,226 +198,5 @@ hr {
 @media(prefers-reduced-motion) {
   .hidden {
     transition: none;
-  }
-}
-
-/* FONT SIZES */
-.fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
-}
-
-.fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
-}
-
-.fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
-}
-
-.fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
-}
-
-.fs-5 {
-  font-size: 1.25rem !important;
-}
-
-.fs-6 {
-  font-size: 1rem !important;
-}
-
-@media (min-width: 576px) {
-  .fs-sm-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
-  }
-
-  .fs-sm-2 {
-    font-size: calc(1.325rem + 0.9vw) !important;
-  }
-
-  .fs-sm-3 {
-    font-size: calc(1.3rem + 0.6vw) !important;
-  }
-
-  .fs-sm-4 {
-    font-size: calc(1.275rem + 0.3vw) !important;
-  }
-
-  .fs-sm-5 {
-    font-size: 1.25rem !important;
-  }
-
-  .fs-sm-6 {
-    font-size: 1rem !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .fs-md-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
-  }
-
-  .fs-md-2 {
-    font-size: calc(1.325rem + 0.9vw) !important;
-  }
-
-  .fs-md-3 {
-    font-size: calc(1.3rem + 0.6vw) !important;
-  }
-
-  .fs-md-4 {
-    font-size: calc(1.275rem + 0.3vw) !important;
-  }
-
-  .fs-md-5 {
-    font-size: 1.25rem !important;
-  }
-
-  .fs-md-6 {
-    font-size: 1rem !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .fs-lg-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
-  }
-
-  .fs-lg-2 {
-    font-size: calc(1.325rem + 0.9vw) !important;
-  }
-
-  .fs-lg-3 {
-    font-size: calc(1.3rem + 0.6vw) !important;
-  }
-
-  .fs-lg-4 {
-    font-size: calc(1.275rem + 0.3vw) !important;
-  }
-
-  .fs-lg-5 {
-    font-size: 1.25rem !important;
-  }
-
-  .fs-lg-6 {
-    font-size: 1rem !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .fs-xl-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
-  }
-
-  .fs-xl-2 {
-    font-size: calc(1.325rem + 0.9vw) !important;
-  }
-
-  .fs-xl-3 {
-    font-size: calc(1.3rem + 0.6vw) !important;
-  }
-
-  .fs-xl-4 {
-    font-size: calc(1.275rem + 0.3vw) !important;
-  }
-
-  .fs-xl-5 {
-    font-size: 1.25rem !important;
-  }
-
-  .fs-xl-6 {
-    font-size: 1rem !important;
-  }
-}
-
-@media (min-width: 1400px) {
-  .fs-xxl-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
-  }
-
-  .fs-xxl-2 {
-    font-size: calc(1.325rem + 0.9vw) !important;
-  }
-
-  .fs-xxl-3 {
-    font-size: calc(1.3rem + 0.6vw) !important;
-  }
-
-  .fs-xxl-4 {
-    font-size: calc(1.275rem + 0.3vw) !important;
-  }
-
-  .fs-xxl-5 {
-    font-size: 1.25rem !important;
-  }
-
-  .fs-xxl-6 {
-    font-size: 1rem !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .fs-1 {
-    font-size: 2.5rem !important;
-  }
-
-  .fs-2 {
-    font-size: 2rem !important;
-  }
-
-  .fs-3 {
-    font-size: 1.75rem !important;
-  }
-
-  .fs-4 {
-    font-size: 1.5rem !important;
-  }
-
-  .fs-sm-1 {
-    font-size: 2.5rem !important;
-  }
-
-  .fs-sm-2 {
-    font-size: 2rem !important;
-  }
-
-  .fs-sm-3 {
-    font-size: 1.75rem !important;
-  }
-
-  .fs-sm-4 {
-    font-size: 1.5rem !important;
-  }
-
-  .fs-md-1 {
-    font-size: 2.5rem !important;
-  }
-
-  .fs-md-2 {
-    font-size: 2rem !important;
-  }
-
-  .fs-md-3 {
-    font-size: 1.75rem !important;
-  }
-
-  .fs-md-4 {
-    font-size: 1.5rem !important;
-  }
-
-  .fs-lg-1 {
-    font-size: 2.5rem !important;
-  }
-
-  .fs-lg-2 {
-    font-size: 2rem !important;
-  }
-
-  .fs-lg-3 {
-    font-size: 1.75rem !important;
-  }
-
-  .fs-lg-4 {
-    font-size: 1.5rem !important;
   }
 }
