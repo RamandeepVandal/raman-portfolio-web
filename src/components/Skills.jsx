@@ -2,14 +2,16 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 export const Skills = () => {
-  const { ref: myRef, inView: sectionIsVisible } = useInView();
+  const { ref: myRef, inView: sectionIsVisible } = useInView({
+    triggerOnce: true
+  });
 
   return (
     <section className={`skills-section mt-5`}>
       <div className="d-flex flex-column justify-content-center align-items-center">
-        <h1 ref={myRef} className={`hidden ${sectionIsVisible ? "show" : ""}`}>
+        <h2 ref={myRef} className={`hidden ${sectionIsVisible ? "show" : ""}`}>
           Skills
-        </h1>
+        </h2>
         <hr />
         <div
           ref={myRef}
