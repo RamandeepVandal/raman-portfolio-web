@@ -5,12 +5,16 @@ export const Footer = () => {
     <section className="footer container d-flex flex-column justify-content-center align-items-center">
       <p>
         Made with ❤️ by Raman Vandal - Code available on{" "}
-        <a href="https://github.com/RamandeepVandal" className="footer-a">
+        <a
+          href="https://github.com/RamandeepVandal"
+          target="_blank"
+          className="footer-a"
+        >
           Github
         </a>
       </p>
       <div className="d-flex justify-content-evenly align-items-center">
-        <a href="https://github.com/RamandeepVandal">
+        <a href="https://github.com/RamandeepVandal" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
