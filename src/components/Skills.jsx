@@ -7,7 +7,7 @@ export const Skills = () => {
   });
 
   return (
-    <section className={`skills-section mt-5`}>
+    <section className={`skills-section mt-5`} id="skills">
       <div className="d-flex flex-column justify-content-center align-items-center">
         <h2 ref={myRef} className={`hidden ${sectionIsVisible ? "show" : ""}`}>
           Skills
