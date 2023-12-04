@@ -12,7 +12,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_USER_ID)
+    emailjs.sendForm("service_rp2m21t", "template_co4h71c", form.current, "TMhG3JX27MQVYvYKO")
       .then((result) => {
           console.log(result.text);
           e.target.reset();
