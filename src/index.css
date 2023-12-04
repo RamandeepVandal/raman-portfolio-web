@@ -28,7 +28,6 @@
   }
 }
 
-
 body {
   background-color: var(--black);
 }
@@ -37,18 +36,57 @@ html {
   scroll-behavior: smooth;
 }
 
+/* SPINNER */
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+}
+
+.spinner {
+  color: var(--purple);
+  background-color: var(--black);
+}
+
+/* HEADER */
+.nav-text {
+  color: var(--purple);
+  font-weight: bold;
+  font-size: var(--fs-p);
+
+  transition: ease all 0.5s;
+}
+
+.nav-text:hover {
+  color: var(--lightPurple);
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: var(--fs-p-sub);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(127, 89, 240, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* HERO SECTION -> Hero.jsx */
 .hero-section {
   height: 100vh;
   min-width: 100%;
-  /*
-  background-image:
-    linear-gradient(to bottom, rgba(22, 22, 26, 0.75), rgba(22, 22, 26, 0.75)), url('./assets/bg2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  */
+}
+
+.video-bg-1 {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .video-bg {
@@ -59,9 +97,11 @@ html {
   top: 0;
   left: 0;
   z-index: -1;
+  background-color: rgb(127, 89, 240, 0.8);
 }
 
 video {
+  opacity: 0.85;
   filter: brightness(40%);
 }
 
@@ -199,4 +239,42 @@ hr {
   .hidden {
     transition: none;
   }
+}
+
+/* CONTACT.JSX */
+.form-control-contact {
+  background-color: var(--black);
+  border: 1px solid var(--purple);
+  color: var(--white);
+}
+
+.form-control-contact:focus {
+  background-color: var(--black);
+  border: 1px solid var(--purple);
+  color: var(--white);
+}
+
+.form-floating>.form-control-plaintext~label::after,
+.form-floating>.form-control:focus~label::after,
+.form-floating>.form-control:not(:placeholder-shown)~label::after,
+.form-floating>.form-select~label::after {
+  background-color: var(--black);
+  border: none;
+}
+
+.form-floating>.form-control-plaintext~label,
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+  color: var(--white);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--white);
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
 }
