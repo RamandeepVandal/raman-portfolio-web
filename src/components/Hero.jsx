@@ -5,9 +5,11 @@ import waterfall from '../assets/waterfall.mp4';
 export const Hero = () => {
   return (
     <>
-      <video className="video-bg" id="video-bg" autoPlay muted loop>
+      <div className="video-bg">
+      <video className="video-bg-1" autoPlay muted loop>
         <source src={waterfall} type="video/mp4" />
       </video>
+      </div>
       <section className="hero-section container d-flex justify-content-center align-items-center">
         <div className="text-center m-5 p-5">
           <h1 className="fs-header">
