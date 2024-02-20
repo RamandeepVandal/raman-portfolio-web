@@ -11,10 +11,10 @@
   --purple: #7f5af0;
   --lightPurple: #8d6bf2;
 
-  --fs-header: 2.5rem;
-  --fs-sub-header: 2rem;
-  --fs-p-header: 1.5rem;
-  --fs-p-sub: 1.1rem;
+  --fs-header: 1.80rem;
+  --fs-sub-header: 1.5rem;
+  --fs-p-header: 1.25rem;
+  --fs-p-sub: 1rem;
   --fs-p: 1rem;
 }
 
@@ -97,12 +97,10 @@ html {
   top: 0;
   left: 0;
   z-index: -1;
-  background-color: rgb(127, 89, 240, 0.8);
 }
 
 video {
-  opacity: 0.85;
-  filter: brightness(40%);
+  filter: brightness(20%);
 }
 
 section h1 {
