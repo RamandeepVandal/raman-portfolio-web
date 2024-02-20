@@ -19,7 +19,7 @@ export const About = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-12">
               <div
-                className={`card about-card m-5 p-5 hidden ${
+                className={`card about-card mt-5 p-5 hidden ${
                   sectionIsVisible ? "show" : ""
                 }`}
                 ref={myRef}

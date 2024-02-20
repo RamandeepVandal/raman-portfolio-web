@@ -11,12 +11,12 @@ export const Hero = () => {
       </video>
       </div>
       <section className="hero-section container d-flex justify-content-center align-items-center">
-        <div className="text-center m-5 p-5">
+        <div className="text-center p-5">
           <h1 className="fs-header">
             Hi, I'm <span className="hero-span">Raman Vandal</span>.
           </h1>
           <h2 className="fs-sub-header">I'm a Software Developer.</h2>
-          <a href="#projects" className="btn hero-btn fs-5 mt-3 p-3">
+          <a href="#projects" className="btn hero-btn mt-3 p-3">
             View my work{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"

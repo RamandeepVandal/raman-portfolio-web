@@ -28,14 +28,14 @@ export const Projects = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-12 col-lg-6">
+            <div className="col-12 col-md-12 col-lg-6 d-flex align-items-stretch">
               <section
                 ref={myRef}
                 className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
               >
                 <img
                   src={socialX}
-                  alt="dramalist demo"
+                  alt="socialX demo"
                   className="img-fluid card-img-top"
                   loading="lazy"
                 />
@@ -63,7 +63,7 @@ export const Projects = () => {
                 </div>
               </section>
             </div>
-            <div className="col-12 col-md-12 col-lg-6">
+            <div className="col-12 col-md-12 col-lg-6 d-flex align-items-stretch">
               <section
                 ref={myRef}
                 className={`card m-5 d-flex justify-content-center align-items-center text-center proj-card`}
@@ -77,7 +77,7 @@ export const Projects = () => {
                 <div className="p-5">
                   <h3>DramaList</h3>
                   <p>
-                    Allows users to keep track of the dramas they have watched, search for new dramas using the TMDB API.
+                    Users keep track of the dramas they have watched, search for new dramas using the TMDB API.
                   </p>
                   <p>
                     <span style={{ fontWeight: "bold" }} className="hero-span">
@@ -97,7 +97,7 @@ export const Projects = () => {
                 </div>
               </section>
             </div>
-            <div className="col-12 col-md-12 col-lg-6">
+            <div className="col-12 col-md-12 col-lg-6 d-flex align-items-stretch">
               <section
                 ref={myRef}
                 className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
@@ -118,7 +118,7 @@ export const Projects = () => {
                     <span style={{ fontWeight: "bold" }} className="hero-span">
                       Tech Stack:
                     </span>{" "}
-                    React, Bootstrap, MongoDB, NodeJS
+                    React, MongoDB, NodeJS
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
@@ -132,7 +132,7 @@ export const Projects = () => {
                 </div>
               </section>
             </div>
-            <div className="col-12 col-md-12 col-lg-6">
+            <div className="col-12 col-md-12 col-lg-6 d-flex align-items-stretch">
               <section
                 ref={myRef}
                 className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}

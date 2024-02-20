@@ -50,7 +50,7 @@ export const Contact = () => {
                   <label htmlFor="email" className="form-label">Email</label>
                 </div>
                 <div className="form-floating mb-3">
-                  <textarea type="text" className="form-control form-control-contact" id="message" name="message"/>
+                  <textarea type="text" className="form-control form-control-contact" id="message" name="message" rows="5" style={{height: '100%'}} />
                   <label htmlFor="message" className="form-label">Message</label>
                 </div>
                 <button className="btn hero-btn fs-5 mt-3 p-3" type="submit">Send</button>
