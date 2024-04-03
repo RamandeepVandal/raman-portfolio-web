@@ -1,21 +1,14 @@
 import React from "react";
-// video bg
-import waterfall from '../assets/waterfall.mp4';
 
 export const Hero = () => {
   return (
     <>
-      <div className="video-bg">
-      <video className="video-bg-1" autoPlay muted loop>
-        <source src={waterfall} type="video/mp4" />
-      </video>
-      </div>
       <section className="hero-section container d-flex justify-content-center align-items-center">
         <div className="text-center p-5">
           <h1 className="fs-header">
             Hi, I'm <span className="hero-span">Raman Vandal</span>.
           </h1>
-          <h2 className="fs-sub-header">I'm an IT Professional.</h2>
+          <h2 className="fs-sub-header">I'm an Tech Professional.</h2>
           <a href="#projects" className="btn hero-btn mt-3 p-3">
             View my work{" "}
             <svg

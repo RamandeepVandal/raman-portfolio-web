@@ -44,9 +44,8 @@ export const About = () => {
                   <span className="hero-span">ReactJS</span>,{" "}
                   <span className="hero-span">NodeJS</span>,{" "}
                   <span className="hero-span">MongoDB</span>,{" "}
-                  <span className="hero-span">Bootstrap</span>, and all the
-                  wonderful technologies that encapsulate and support them to
-                  bring my ideas to life.
+                  <span className="hero-span">SQL</span>, and{" "} 
+                  <span className="hero-span">Bootstrap</span>.
                 </p>
               </div>
             </div>
