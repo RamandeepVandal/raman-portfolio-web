@@ -5,6 +5,7 @@ import otterClone from "../assets/otter-final.gif";
 import socialX from "../assets/socialX.gif";
 import shoeFlex from "../assets/shoeFlex-final.gif";
 import dramaGif from "../assets/dramalist-final.gif";
+import ableFinal from "../assets/able-final.gif";
 
 export const Projects = () => {
   const { ref: myRef, inView: sectionIsVisible } = useInView({
@@ -138,30 +139,30 @@ export const Projects = () => {
                 className={`card d-flex m-5 justify-content-center align-items-center text-center proj-card`}
               >
                 <img
-                  src={otterClone}
+                  src={ableFinal}
                   alt="dramalist demo"
                   className="img-fluid card-img-top"
                   loading="lazy"
                 />
                 <div className="p-5">
-                  <h3>Otter Clone</h3>
+                  <h3>Able Furniture Website</h3>
                   <p>
-                    This front-end web app uses React and Bootstrap to create a
-                    clone of the Otter landing page. It is fully responsive!
+                    This front-end app uses WordPress and Figma to re-design the website for Able Furniture Assembly. 
+                    It is fully responsive!
                   </p>
                   <p>
                     <span style={{ fontWeight: "bold" }} className="hero-span">
                       Tech Stack:
                     </span>{" "}
-                    React, Bootstrap, HTML5, CSS3
+                    WordPress, Figma, HTML5, CSS3
                   </p>
                   <div className="d-flex justify-content-evenly align-items-center text-center card-btn">
                     <a
-                      href="https://github.com/RamandeepVandal/landing-page-otter-clone"
+                      href="https://github.com/RamandeepVandal"
                       className="btn hero-btn"
                       target="_blank"
                     >
-                      Code
+                      More Projects
                     </a>
                   </div>
                 </div>
