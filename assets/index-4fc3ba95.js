@@ -1,1 +1,0 @@
-import{_ as e}from"./index-083835cb.js";async function i(r,o=!0){await r.addParticleUpdater("strokeColor",async t=>{const{StrokeColorUpdater:a}=await e(()=>import("./StrokeColorUpdater-fabbebd2.js"),["assets/StrokeColorUpdater-fabbebd2.js","assets/index-083835cb.js","assets/index-6066a042.css"]);return new a(t)},o)}export{i as loadStrokeColorUpdater};
